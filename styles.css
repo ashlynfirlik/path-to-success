@@ -131,16 +131,20 @@ h2 {
     font-size: 2em;
     font-family: 'Kavoon', cursive;
     color: #ffffff;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    padding-left: 15px;
 }
 
 h3 {
     font-size: 1.5em;
     color: #E9BB57;
+    font-weight: bold;
+    padding-left: 15px;
 }
 
 h4 {
     font-size: 1.15em;
     color: #484FB7;
 }
-
 
