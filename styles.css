@@ -71,6 +71,12 @@ table {
     }
 }
 
+body > div:first-of-type {
+    width: 450px;
+    min-height: 100vh;
+    background-color: #484FB7;
+}
+
 nav {
     background-color: #E9BB57;
     text-align: center;
@@ -86,9 +92,10 @@ nav a {
 }
 
 body {
-    background-color: #484fb7;
+    background-color: #6B8FE7;
     font-family: 'Inter', sans-serif;
-    width: 450px;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
