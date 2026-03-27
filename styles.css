@@ -114,6 +114,17 @@ h1 {
     font-size: 3em;
     font-family: 'Kavoon', cursive;
     color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
 
 h2 {
