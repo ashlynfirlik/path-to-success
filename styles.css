@@ -65,15 +65,22 @@ table {
 }
 
 /* GLOBAL STYLES */
-body {
-    background-color: #484fb7;
-}
-
-
 @media only screen and (max-width: 450px) {
     body {
         background-color: #6B8FE7;
     }
 }
+
+body {
+    background-color: #484fb7;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Kavoon', cursive;
+    color: #ffffff;
+}
+
 
 
