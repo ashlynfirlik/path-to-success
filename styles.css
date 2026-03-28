@@ -271,3 +271,15 @@ section:nth-of-type(7) a {
     font-weight: bold;
     box-shadow: 5px 5px 10px black;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 35px 20px;
+}
+
+footer p, footer a {
+    color: #ffffff;
+    font-size: .85em;
+}
