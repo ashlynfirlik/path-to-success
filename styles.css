@@ -215,3 +215,27 @@ section:nth-of-type(5) > ul > li:nth-of-type(4) {
     padding: 40px 10px;
     border-radius: 18px;
 }
+
+table {
+    background-color:#E9BB57;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+th {
+    color: #1e1e1e;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 18px 15px;
+}
+
+td {
+    background-color: #ffffff;
+    color: #1e1e1e;
+    font-size: 1em;
+    padding: 15px;
+    border: solid 2px;
+    border-color: #E9BB57;
+    border-spacing: 5px;
+}
