@@ -249,15 +249,25 @@ td {
 
 section:nth-of-type(7) {
     background-color: #D9526F;
+    margin: 10px 0;
 }
 
 section:nth-of-type(7) p {
     color: #ffffff;
     line-height: 25px;
     padding: 0 15px;
+    padding-bottom: 8px;
 }
 
 section:nth-of-type(7) a {
     background-color: #ffffff;
-    
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 125px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px black;
 }
