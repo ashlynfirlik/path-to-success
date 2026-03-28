@@ -140,7 +140,7 @@ h3 {
     font-size: 1.5em;
     color: #E9BB57;
     font-weight: bold;
-    padding-left: 15px;
+    padding: 5px 0 5px 15px;
 }
 
 h4 {
@@ -150,4 +150,9 @@ h4 {
 
 section:nth-of-type(-n+4) > div {
     background-color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    margin: 8px 20px;;
+    border-radius: 15px;
 }
+
