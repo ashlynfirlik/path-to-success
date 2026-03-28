@@ -140,7 +140,6 @@ h3 {
     font-size: 1.5em;
     color: #E9BB57;
     font-weight: bold;
-    padding: 5px 0 5px 15px;
 }
 
 h4 {
@@ -149,6 +148,10 @@ h4 {
     font-weight: bold;
     padding-bottom: 8px;
     padding-left: 9px;
+}
+
+section:nth-of-type(-n+4) > h3 {
+    padding: 0 0 8px 15px;
 }
 
 section:nth-of-type(-n+4) {
@@ -214,6 +217,10 @@ section:nth-of-type(5) > ul > li:nth-of-type(4) {
     background-color: #ffffff;
     padding: 40px 10px;
     border-radius: 18px;
+}
+
+section:nth-of-type(6) h3 {
+    padding: 8px 0 8px 15px;
 }
 
 table {
