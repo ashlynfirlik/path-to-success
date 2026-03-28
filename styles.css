@@ -173,38 +173,39 @@ section:nth-of-type(5) {
     padding: 10px;
 }
 
+section:nth-of-type(5) > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+}
+
 section:nth-of-type(5) > ul > li:nth-of-type(1) {
-    display: inline-block;
-    justify-content: space-between;
     font-weight: bold;
     background-color: #4CA7C0;
-    padding: 25px 10px;
-    border-radius: 10px;
+    padding: 40px 10px;
+    border-radius: 18px;
 }
 
 section:nth-of-type(5) > ul > li:nth-of-type(2) {
-    display: inline-block;
-    justify-content: space-between;
     font-weight: bold;
     background-color: #6B8FE7;
-    padding: 25px 10px;
-    border-radius: 10px;
+    padding: 40px 10px;
+    border-radius: 18px;
 }
 
 section:nth-of-type(5) > ul > li:nth-of-type(3) {
-    display: inline-block;
-    justify-content: space-between;
-    font-weight: bold;
+   font-weight: bold;
     background-color: #E9BB57;
-    padding: 25px 10px;
-    border-radius: 10px;
+    padding: 40px 10px;
+    border-radius: 18px;
 }
 
 section:nth-of-type(5) > ul > li:nth-of-type(4) {
-    display: inline-block;
-    justify-content: space-between;
     font-weight: bold;
     background-color: #ffffff;
-    padding: 25px 10px;
-    border-radius: 10px;
+    padding: 40px 10px;
+    border-radius: 18px;
 }
