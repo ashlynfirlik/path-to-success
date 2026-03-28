@@ -89,7 +89,7 @@ nav > h2 {
     font-weight: bold;
     font-style: italic;
     font-size: 1.5em;
-    color: black;
+    color: #1e1e1e;
     padding-bottom: 5px;
 }
 
@@ -157,6 +157,7 @@ section:nth-of-type(-n+4) > div {
     padding: 10px;
     margin: 8px 20px;;
     border-radius: 15px;
+    color: #1e1e1e;
 }
 
 section:nth-of-type(-n+4) > div p {
@@ -180,6 +181,7 @@ section:nth-of-type(5) > ul {
     font-size: 1.3em;
     text-align: center;
     padding: 10px;
+    color: #1e1e1e;
 }
 
 section:nth-of-type(5) > ul > li:nth-of-type(1) {
