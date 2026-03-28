@@ -148,3 +148,6 @@ h4 {
     color: #484FB7;
 }
 
+section:nth-of-type(-n+4) > div {
+    background-color: #ffffff;
+}
